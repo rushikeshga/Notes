@@ -1,0 +1,62 @@
+git pull origin 
+git checkout main
+git commit -m "commiting"
+git checkout -b CG-321
+git checkout -b CG-327
+git checkout -b CG-327_2
+
+git branch
+
+npm install
+git clone https://github.com/CG-Global/ServicePortalUI.git
+
+npm i react-router-dom
+npm i luxon
+
+shadcn ui
+
+
+npm install react-file-viewer --legacy-peer-deps
+
+node architecture:
+whenever we send any api request to node js server is goes to event queue of event loop. the event loop checks whether it is blocking session or non-blocking
+session. if it is an non-blocking i.e. asynchronous operation node js will start processing that request. if it is an blocking session i.e. synchronous operation,
+request goes to thread pool and thread is assign for that request and that thread starts processing that request. 
+default thread pool size=4
+
+URL: uniform resource locator
+Domain: user freindly name of your ip address
+path types:
+https://rgDev.com/about
+/about - normal path
+/about/help - nested path
+/about?id=123&pass=123 - query parameters
+
+npm i url
+ sys distance
+ current distance 
+ total
+ 
+ 13/10/2024
+ npm install express --save
+ 
+ 29/10/2024:
+node versioning:
+ eg. express version: 4.18.2
+ 
+ 2: minor fixes
+ 18: major fixes, recommended
+ 4: major version might break in existing project
+ 
+ npm install express@4.17.3
+ package.json:
+ {
+  "dependencies": {
+    "express": "^4.21.1",
+  }
+}
+ ^ - carrot symbol : install all recommended and minor fixes of current version automatically
+ ~ - squigly symbol : install all minor fixes of current version automatically
+ no prior symbol: wont changes version automatically
+
+ 
